@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">lab02b-en</string>
+
+
+    <string name="nombre_label">Name CA:</string>
+    <string name="apellido_label">Last Name CA:</string>
+
+
+</resources>

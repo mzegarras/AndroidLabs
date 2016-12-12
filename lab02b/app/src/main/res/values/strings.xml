@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lab02b</string>
+
+
+    <string name="nombre_label">Nombre:</string>
+    <string name="apellido_label">Apellido:</string>
+
+</resources>

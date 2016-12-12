@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.msonic.lab02.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:src="@drawable/pais" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="@string/apellido_label" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="@string/nombre_label" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:textColor="@color/color_letra" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:textColor="@color/color_letra" />
+
+
+
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="@string/app_name" />
+
+
+    <Button
+        android:id="@+id/imageButtonSelector"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector2" />
+
+
+    <Button
+
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
